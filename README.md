@@ -52,7 +52,7 @@ Call `OpenCVLoader.initDebug()` to initialize OpenCV
 engine. A best practice is to call it inside your 
 `Application`, like the code below (in Kotlin):
 
-    class MyApplication : Application {
+    class MyApplication : Application() {
         override fun onCreate(){
             super.onCreate()
             OpenCVLoader.initDebug(){
