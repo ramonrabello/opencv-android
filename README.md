@@ -1,3 +1,6 @@
+# :no_entry: ~~[DEPRECATED]~~
+This repository is no longer being supported. It was created in 2018, when there was lack of support to set OpenCV as Gradle dependency in Android Studio. As of OpenCV 4.9.0, it became available to be download via [Maven Central](https://central.sonatype.com/artifact/org.opencv/opencv), which is the official and recommended way to add OpenCV as a library dependency into your projects.
+
 # opencv-android
 Project that bundles the [OpenCV for Android](https://opencv.org/releases.html) to be used via Gradle
 without the need to download the OpenCV Manager app on user's device.
